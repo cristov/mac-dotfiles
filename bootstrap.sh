@@ -5,8 +5,8 @@ function doIt() {
 	rsync --exclude ".git/" --exclude ".DS_Store" --exclude "bootstrap.sh" \
 		--exclude "README.md" --exclude "LICENSE-MIT.txt" -av --no-perms . ~
 	source ~/.bash_profile
-#	mkdir ~/Library/Fonts/Powerline
-#	cp .vim/bundle/tmux-powerline/fonts/* ~/Library/Fonts/Powerline
+	mkdir ~/Library/Fonts/
+	cp .vim/bundle/tmux-powerline/fonts/* ~/Library/Fonts/
 }
 if [ "$1" == "--force" -o "$1" == "-f" ]; then
 	doIt
