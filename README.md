@@ -84,8 +84,7 @@ Suggestions/improvements
 
 ## Author
 
-|---|
-| 
+YJ Jeong(young@joonlab.com) 
 
 ## Thanks to…
 
