@@ -1,7 +1,7 @@
 " Configuration
 "autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && " b:NERDTreeType == "primary") | q | endif
-autocmd vimenter * if !argc() | NERDTree | endif
-autocmd vimenter * NERDTree
+"autocmd vimenter * if !argc() | NERDTree | endif
+"autocmd vimenter * NERDTree
 
 " Pathogen first
 execute pathogen#infect()
@@ -46,7 +46,7 @@ nnoremap / /\v
 vnoremap / /\v
 set ignorecase
 set smartcase
-set gdefault
+"set gdefault
 set incsearch
 set showmatch
 set hlsearch
@@ -56,7 +56,7 @@ vnoremap <tab> %
 set wrap
 set textwidth=0
 set formatoptions=qrn1
-set spell
+set nospell
 
 " Aesthetics
 
